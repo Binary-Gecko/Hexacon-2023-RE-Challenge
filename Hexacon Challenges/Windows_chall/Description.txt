@@ -1,0 +1,5 @@
+This challenge consists of a flag checker that takes a flag as input and employs internal checks to validate it.
+
+The first layer of defense includes a VEH anti-debugging technique. You need to bypass it along with some standard anti-debugging techniques.
+
+Next, you will encounter the check part where you must reverse the formula to obtain the correct result.

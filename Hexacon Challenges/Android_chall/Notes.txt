@@ -1,0 +1,2 @@
+So this is a note keeping app that is perfectly normal.
+When exploring the code (after decompiling) you will notice an exported content provider that gives file in the cach directory, so the idea here is to bypass the filter Uri.getLastPathSegments() (automatically decodes the segment and turns %2F into /) and to do a path traversal to be able to read from all the app files outside the cach folder.
